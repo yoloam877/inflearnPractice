@@ -6,7 +6,7 @@
 
 // axios 네트워크 통신
 axios
-  .get("url주소") //  postman 다시 해볼 것
+  .get("https://a498a3d2-6ecf-44eb-aacf-a0e481356778.mock.pstmn.io/products")
   .then((result) => {
     console.log(result);
 
